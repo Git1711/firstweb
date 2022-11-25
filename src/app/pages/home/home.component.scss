@@ -1,0 +1,32 @@
+.banner
+{
+    background-image: url(../../../assets/img/8.jpg);
+    height: 550px;
+    background-position: center top;
+    background-size: cover;
+}
+.bannercontent h1
+{
+    color: rgb(194, 255, 73);
+    font-size: 50px;
+    font-weight: bold;
+    top: 13%;
+    left: 15%;
+    position: absolute;
+}
+
+.bannercontent a
+{
+    color: darkturquoise;
+    font-size: 35px;
+    text-decoration: none;
+    font-weight: bold;
+    top: 32%;
+    left: 30%;
+    position: absolute;
+}
+
+.bannercontent a:hover
+{
+    color: rgb(0, 36, 0);
+}

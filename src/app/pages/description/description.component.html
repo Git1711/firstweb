@@ -1,0 +1,21 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-6" *ngIf="productData">
+            <img src="{{productData[0].productImg}}" width="100%">
+            <!-- <p>{{productData[0].productName}}</p> -->
+        </div>
+        <div class="col-lg-6 col 12" >
+            <h1><br><br>    Enter details for Query</h1>
+            <form>
+
+                <input type="text" class="form-control" placeholder="Enter Your Full Name" /> &nbsp;
+                <input type="text" class="form-control" placeholder="Enter Your Mobile" /> &nbsp;
+                <textarea class="form-control" placeholder="Enter Your Address"></textarea> &nbsp;
+                <button class="btn btn-md btn-dark mt-3">Place Query</button>
+
+            </form>
+
+        </div>
+
+    </div>
+</div>

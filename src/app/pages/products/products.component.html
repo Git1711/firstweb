@@ -1,0 +1,15 @@
+<div class="container ">
+    <div class="heading">
+        <h1>Welcome to Product Page</h1>
+    </div>
+    <div class="row">
+        <div class="col-md-6" *ngFor="let details of productData">
+            <div class="category">
+                <img src ="{{details.productImg}}">
+                <h1>{{details.productName}}</h1>
+                <p>{{details.productDetails}}</p>
+                <a class ="buybtn" [routerLink]="['/products',details.productId]">Explore Category <i class="bi bi-arrow-right-circle"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
